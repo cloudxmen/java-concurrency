@@ -33,6 +33,20 @@ new Thread(task2).start();
 ```
 
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+
 graph LR;
 thread-1 -- x=3 --> x(x - from main memory)
 thread-2 -- x=7 --> x
