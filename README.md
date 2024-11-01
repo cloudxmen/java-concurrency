@@ -1,7 +1,5 @@
 # Java Concurrency
 
-## Basic Terms and Definitions
----
 ### Data Race 
 Occurs when these are present:
 - > 2 or more threads in a <strong>single process</strong> access the same memory location concurrently
